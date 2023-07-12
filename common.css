@@ -1,0 +1,57 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: #022b3a;
+}
+header{
+    width:100% ;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:.1rem;
+    background-color: black;
+    /* background-image: url(logo.png);
+    background-position:right;
+    background-repeat: no-repeat;
+    background-size:20%; */
+}
+nav a{
+    padding:.5rem;
+    color:white;
+    font-weight: 900;
+    text-decoration: overline;
+}
+nav a:hover{
+    color:#e6d00c;
+    font-size:large;
+}
+main{
+    background-color: #022b3a;
+    padding:1rem;
+}
+footer{
+    color:#f5f7fa;
+    background-color: black;
+    padding:1rem;
+}
+.footer-container{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/* for Movie button in all pages with empty content */
+.menu{
+    color:#000000;
+    background-color: #e6d00c;
+    border:transparent 0px solid;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    padding:1rem;
+}
+.menu:hover{
+    border:black 2px solid;
+}

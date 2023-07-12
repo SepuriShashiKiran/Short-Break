@@ -1,0 +1,35 @@
+main{
+    padding:2rem;
+    background-color:#022b3a;
+}
+.menu-box{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    color:white;
+}
+.menu{
+    color:#000000;
+    background-color: #e6d00c;
+    border:transparent 0px solid;
+    border-radius: 0.5rem;
+    font-size: 3rem;
+    padding:1rem;
+}
+.menu:hover{
+    border:black 2px solid;
+}
+.menu-box a{
+    text-decoration: none;
+}
+.menu-div{
+    padding:1rem;
+    display:flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: #1f7a8c;
+    border-radius:10px;
+    box-shadow: #000000 0px 0px 10px;
+}
